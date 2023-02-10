@@ -1,0 +1,99 @@
+
+body{
+  overflow: hidden;
+
+  background-color: linear-gradient(35deg, rgba(22,21,21,1) 0%, rgba(0,128,0,1) 42%, rgba(0,128,0,1) 100%);
+
+  /* background-size: cover; */
+
+  height: 800px;
+background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(/img/Group\ 1.png);
+}
+
+
+.primeiro{
+  display: flex;
+  flex-direction: column;
+  mix-blend-mode: multiply;
+  height: 48px;
+}
+.segundo{
+  display: flex;
+  flex-direction: column;
+  mix-blend-mode: multiply;
+  height: 48px;
+}
+
+.terceiro{
+  mix-blend-mode: multiply;
+  height: 48px;
+}
+
+  /* corpo */
+
+.corpo{
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  padding: 0px;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  font-family: "Gluten", cursive;
+}
+
+button{
+    color: aliceblue;
+    background-color: black;
+    border-radius: 10px;
+    margin-bottom: 22px;
+    width: 283px;
+    height: 32px;
+
+  }
+
+  .zap{
+   margin-top: 90px;
+  }
+
+
+/* rodape*/
+
+
+/* .rodape{
+ display: flex;
+ flex-direction: column;
+ align-items: end;
+mix-blend-mode: multiply;
+}
+.rodape1{
+ 
+  mix-blend-mode: multiply;
+}
+.rodape2{
+display: flex;
+  mix-blend-mode: multiply;
+} */
+
+/* efeitos botoes */
+
+.zap:hover{
+background-color: antiquewhite;
+color: black;
+font-weight: 800;
+}
+.instagram:hover{
+  background-color: antiquewhite;
+  color: black;
+  font-weight: 800;
+  }
+
+.historia:hover{
+  background-color: antiquewhite;
+  color: black;
+  font-weight: 800;
+}
+    
+
