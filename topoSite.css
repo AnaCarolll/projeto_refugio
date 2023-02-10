@@ -1,34 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 
 body{
   overflow: hidden;
-
-  background-color: linear-gradient(35deg, rgba(22,21,21,1) 0%, rgba(0,128,0,1) 42%, rgba(0,128,0,1) 100%);
-
-  /* background-size: cover; */
-
-  height: 800px;
-background-size: cover;
+  background: rgb(22,21,21);
+  background: linear-gradient(35deg, rgba(22,21,21,1) 0%, rgba(0,128,0,1) 42%, rgba(0,128,0,1) 100%);
   background-repeat: no-repeat;
-  background-image: url(/img/Group\ 1.png);
+  min-height: 100vh;
+
 }
 
+/* texto refugio */
 
 .primeiro{
   display: flex;
   flex-direction: column;
   mix-blend-mode: multiply;
-  height: 48px;
+  height: 49px;
 }
 .segundo{
   display: flex;
   flex-direction: column;
   mix-blend-mode: multiply;
-  height: 48px;
+  height: 49px;
 }
 
 .terceiro{
   mix-blend-mode: multiply;
-  height: 48px;
+  height: 49px;
+
 }
 
   /* corpo */
@@ -44,56 +46,27 @@ background-size: cover;
   font-family: "Gluten", cursive;
 }
 
-button{
-    color: aliceblue;
-    background-color: black;
-    border-radius: 10px;
-    margin-bottom: 22px;
-    width: 283px;
-    height: 32px;
+/* foto */
 
-  }
-
-  .zap{
-   margin-top: 90px;
-  }
-
-
-/* rodape*/
-
-
-/* .rodape{
- display: flex;
- flex-direction: column;
- align-items: end;
-mix-blend-mode: multiply;
+.grupo{
+  padding-top: 10px;
+  margin-left: 170px;
+  height: 380px;
 }
-.rodape1{
+
+ /* botoes */
+.teste{
  
-  mix-blend-mode: multiply;
-}
-.rodape2{
-display: flex;
-  mix-blend-mode: multiply;
-} */
+ margin-left: 540px;
+  background-color: black;
+  height: 30px;
+  width: 200px;
+  border-radius: 10px;
+ text-align: center;
+  color: aliceblue;
 
-/* efeitos botoes */
-
-.zap:hover{
-background-color: antiquewhite;
-color: black;
-font-weight: 800;
 }
-.instagram:hover{
-  background-color: antiquewhite;
-  color: black;
-  font-weight: 800;
-  }
 
-.historia:hover{
-  background-color: antiquewhite;
-  color: black;
-  font-weight: 800;
-}
+
     
 
