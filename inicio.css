@@ -49,23 +49,56 @@ body{
 /* foto */
 
 .grupo{
-  padding-top: 10px;
-  margin-left: 170px;
-  height: 380px;
+
+  margin-left: 90px;
+  height: 360px;
+  margin-bottom: 20px;
 }
 
  /* botoes */
-.teste{
- 
- margin-left: 540px;
+
+
+
+.zap{
+  margin-left: 500px;
   background-color: black;
   height: 30px;
-  width: 200px;
+  width: 210px;
   border-radius: 10px;
- text-align: center;
+  margin-top: 50px;
+  margin-bottom: 10px;
   color: aliceblue;
 
 }
+
+.insta{
+  margin-left: 500px;
+  background-color: black;
+  height: 30px;
+  width: 210px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  color: aliceblue;
+}
+
+.historia{
+  margin-left: 500px;
+  background-color: black;
+  height: 30px;
+  width: 210px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  color: aliceblue;
+}
+a{
+color: aliceblue;
+    text-decoration: none;
+ }
+
+/* efeitos */
+
+
+
 
 
     
