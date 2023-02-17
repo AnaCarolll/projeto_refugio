@@ -2,8 +2,9 @@
     margin: 0;
     padding: 0;
 }
+
+/* cor de fundo */
 body{
-    
     background: rgb(22,21,21);
     background: linear-gradient(35deg, rgba(22,21,21,1) 0%, rgba(0,128,0,1) 42%, rgba(0,128,0,1) 100%);
     background-repeat: no-repeat;
@@ -14,24 +15,30 @@ body{
     position: relative;
 }
 
+/* titulo sobre a imagem */
 label{
  position: absolute;
   font-size: 52px;
-  left: 460px;
-  color: #faebd7;
+  left: 430px;
+  color: #ffffff;
   top: 235px;
-  font-family: 'Titan One', sans-serif;
+  font-family: 'Comfortaa', sans-serif;
 }
 
+/* imagem */
 .historia{
   filter: blur(2px);
  height: 513px;
 
 }
+
+/* bloco preto */
 .bloco{
     height: 40px;
     background-color: rgb(10, 9, 9);
 }
+
+/* texto */
 h2{
     text-indent: 55px;
     padding-top: 30px;
